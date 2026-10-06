@@ -3,15 +3,16 @@ body {
 background-color: #fffbeb;
 font-family: "Montserrat", sans-serif;
 display: flex;
+font-size: 75%;
 }
 
 .wrapper {
   background-color: white;
-  border: 2px solid #546880
+  border: 2px solid palevioletred;
 }
 
 header {
-  background-color: #c0cac9;
+  background-color: pink;
   padding: 2em;
   display: flex;
   justify-content: center;
@@ -25,7 +26,7 @@ header h1 {
 
 header h2 {
   font-size: 100%;
-  color: #546880;
+  color: dark gray;
 }
 
 header figure{
@@ -63,4 +64,18 @@ main{
 footer{
   background-color: #c0cac9;
   padding: 1em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  font-size: 160%;
+  text-decoration: none;
+  color: #546880;
+}
+
+footer a:hover {
+  color: palevioletred;
+  text-shadow: 0 0 5px white;
 }
